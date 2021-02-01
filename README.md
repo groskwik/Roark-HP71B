@@ -9,3 +9,14 @@ Case 1a to 1f are implemented
 
 ### Partial distributed load
 Case 2a to 2f are implemented
+
+## Usage
+The program asks for the inputs. The variable names are the same as defined in the Roark's.
+
+## Outputs
+The program compute:
+- The reaction forces at beam supports
+- The bending moment at beam supports
+- The maximum bending moment
+- The maximum deflection
+- The deflection along the beam for a given range
