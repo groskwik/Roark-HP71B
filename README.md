@@ -53,7 +53,15 @@ The description below is copied from http://www.namirshammas.com/HP71B/EMU71.htm
 ```bas
          TRANSFORM ROARK INTO BASIC
 ```
-6. You can now copy the file to hdrive1
+6. You can now copy the file to HDRIVE1 by executing from the keyboard (replace ROARK with the name you chose):
+```bas
+         COPY ROARK TO ":HDRIVE1"
+```
+7. The file HDRIVE1.dat is now able to be used to transfer directly its content with the PILBOX. Replace the HDRIVE1.dat file from ILPER with the one from EMU71, Connect you HP-71B to the PILBOX, run ILPER, and execute the following command on your (real) HP71B:
+```bas
+         COPY "ROARK:HDRIVE1"
+```
+
 ## Thanks
 
 Many thanks to Jean-Francois Garnier, Namir Shammas and Valentin Albillo
