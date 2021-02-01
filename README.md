@@ -29,7 +29,7 @@ See EMU71 help for How to install the Rom into the emulator.
 ## Installation
 There are several methods to copy the program to the HP71B Calculator.
 The one described below uses the PILBOX http://www.jeffcalc.hp41.eu/hpil/ and EMU71 http://www.jeffcalc.hp41.eu/emu71/.
-The description below is copied from http://www.namirshammas.com/HP71B/EMU71.htm.
+The description below is derived from http://www.namirshammas.com/HP71B/EMU71.htm.
 
 1. Copy the code, renaming it to emu_in.dat, to Emu71's home directory.
 2. Enter this small program in Emu71.
