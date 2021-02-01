@@ -23,13 +23,13 @@ The program computes:
 
 ## Requirements
 This program uses the Math Rom.
+If you follow the instruction below for installation, you also need the Math Rom installed in EMU71.
+See EMU71 help for How to install the Rom into the emulator.
 
 ## Installation
 There are several methods to copy the program to the HP71B Calculator.
 The one described below uses the PILBOX http://www.jeffcalc.hp41.eu/hpil/ and EMU71 http://www.jeffcalc.hp41.eu/emu71/.
 The description below is copied from http://www.namirshammas.com/HP71B/EMU71.htm.
-
-You need the Math Rom installed in EMU71, see EMU71 help for How to install the Rom into the emulator.
 
 1. Copy the code, renaming it to emu_in.dat, to Emu71's home directory.
 2. Enter this small program in Emu71.
