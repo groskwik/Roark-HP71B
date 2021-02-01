@@ -33,7 +33,8 @@ You need the Math Rom installed in EMU71, see EMU71 help for How to install the 
 
 1. Copy the code, renaming it to emu_in.dat, to Emu71's home directory.
 2. Enter this small program in Emu71.
-```basic
+```bas
+
 10 DIM A$[100]
 15 INPUT "FILENAME? ";F$
 20 CREATE TEXT F$
@@ -46,7 +47,7 @@ You need the Math Rom installed in EMU71, see EMU71 help for How to install the 
 3. Run the program in EMU71. The program prompts for a name. It will be the name of the ROARK program in EMU71.
 4. Close the file by executing from the keyboard:
 ```bas
-        ASSIGN#1 to *
+        ASSIGN #1 to *
 ```
 5. The text file is now in the emulated HP-71B file system, as a proper 71B TEXT file, with the name you chose. You can now transform it from its text form to a BASIC program by executing from the keyboard (replace ROARK with the name you chose):
 ```bas
