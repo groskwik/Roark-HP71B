@@ -1,0 +1,8 @@
+10 DIM A$[100]
+15 INPUT "FILENAME? ";F$
+20 CREATE TEXT F$
+30 ASSIGN #1 TO F$
+40 ENTER :DOSLINK;A$
+50 DISP A$ ! just to follow the process, you can omit it, if you keep it be careful with the delay setting
+60 PRINT #1;A$
+70 GOTO 40
