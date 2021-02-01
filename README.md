@@ -24,7 +24,7 @@ The program computes:
 ## Requirements
 This program uses the Math Rom. The module shall be properly installed on your calculator.
 If you follow the instruction below for installation, you will also need the Math Rom installed in EMU71.
-See EMU71 help for How to install the Rom into the emulator.
+See EMU71 help for how to install the Rom into the emulator.
 
 ## Installation
 There are several methods to copy the program to the HP71B Calculator.
