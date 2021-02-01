@@ -45,7 +45,7 @@ If you follow the instruction below for installation, you will also need the Mat
 See EMU71 help for how to install the Rom into the emulator.
 
 ## Installation
-There are several methods to copy the program to the HP71B Calculator.
+There are several methods to copy the program to the HP-71B Calculator.
 The one described below uses the PILBOX http://www.jeffcalc.hp41.eu/hpil/ and EMU71 http://www.jeffcalc.hp41.eu/emu71/.
 The description below is derived from http://www.namirshammas.com/HP71B/EMU71.htm.
 
