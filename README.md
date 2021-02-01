@@ -21,6 +21,24 @@ The program computes:
 - The maximum deflection
 - The deflection along the beam for a given range
 
+## Computation of a single value
+Once the program as ran one time, it is possible to compute a single value on any location of the beam.
+Examples:
+* Case 1 (a through f). Computes the Shear Force at location x=10.2:
+ ```bas
+         FNV1(10.2)
+```      
+* Same for respectively Slope, Moment and Deflection:
+ ```bas
+         FNT1(10.2)
+         FNM1(10.2)   
+         FNY1(10.2)
+```      
+* Case 2 (a through f). Same as above but the function name ends with "2":
+ ```bas
+         FNV2(10.2)
+```      
+
 ## Requirements
 This program uses the Math Rom. The module shall be properly installed on your calculator.
 If you follow the instruction below for installation, you will also need the Math Rom installed in EMU71.
@@ -61,23 +79,6 @@ The description below is derived from http://www.namirshammas.com/HP71B/EMU71.ht
 ```bas
          COPY "ROARK:HDRIVE1"
 ```
-## Computation of a single value
-Once the program as ran one time, it is possible to compute a single value on any location of the beam.
-Examples:
-* Case 1 (a through f). Computes the Shear Force at location x=10.2:
- ```bas
-         FNV1(10.2)
-```      
-* Same for respectively Slope, Moment and Deflection:
- ```bas
-         FNT1(10.2)
-         FNM1(10.2)   
-         FNY1(10.2)
-```      
-* Case 2 (a through f). Same as above but the function name ends with "2":
- ```bas
-         FNV2(10.2)
-```      
 ## Thanks
 
 Many thanks to Jean-Francois Garnier, Namir Shammas and Valentin Albillo
