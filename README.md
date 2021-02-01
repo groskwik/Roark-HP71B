@@ -32,7 +32,7 @@ The one described below uses the PILBOX http://www.jeffcalc.hp41.eu/hpil/ and EM
 The description below is derived from http://www.namirshammas.com/HP71B/EMU71.htm.
 
 1. Copy the code, renaming it to emu_in.dat, to Emu71's home directory.
-2. Enter this program in Emu71.
+2. Enter this program in Emu71 (or copy it from the repositery, see readdat file)
 ```bas
 
 10 DIM A$[100]
