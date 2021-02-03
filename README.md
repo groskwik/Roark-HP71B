@@ -19,9 +19,11 @@ The program asks for the inputs. The variable names are the same as defined in t
 The program computes:
 - The reaction forces at beam supports
 - The bending moment at beam supports
-- The maximum bending moment
-- The maximum deflection
+- The maximal bending moment (along the beam, can be less than on the support)
+- The maximal deflection
 - The deflection along the beam for a given range
+- The moment along the beam for a given range
+- The shear force along the beam for a given range
 
 ## Computation of a single value
 Once the program as ran one time, it is possible to compute a single value on any location of the beam.
