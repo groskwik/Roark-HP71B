@@ -12,6 +12,7 @@ The following cases are implemented:
 
 ## Usage
 The program asks for the inputs. The variable names are the same as defined in the Roark's.
+![](demo.gif)
 
 ## Outputs
 The program computes:
