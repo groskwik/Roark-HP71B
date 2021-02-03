@@ -85,4 +85,4 @@ The description below is derived from http://www.namirshammas.com/HP71B/EMU71.ht
 ```
 ## Thanks
 
-Many thanks to Jean-Francois Garnier, ChristophGiesselink, Namir Shammas and Valentin Albillo.
+Many thanks to Jean-Francois Garnier, Christoph Giesselink, Namir Shammas and Valentin Albillo.
