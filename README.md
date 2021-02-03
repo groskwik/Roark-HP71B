@@ -11,7 +11,8 @@ The following cases are implemented:
 * Partial distributed load: Case 2a to 2f are implemented
 
 ## Usage
-The program asks for the inputs. The variable names are the same as defined in the Roark's.
+The program asks for the inputs. The variable names are the same as defined in the Roark's. See demo below:
+
 ![](demo.gif)
 
 ## Outputs
@@ -82,4 +83,4 @@ The description below is derived from http://www.namirshammas.com/HP71B/EMU71.ht
 ```
 ## Thanks
 
-Many thanks to Jean-Francois Garnier, Namir Shammas and Valentin Albillo
+Many thanks to Jean-Francois Garnier, ChristophGiesselink, Namir Shammas and Valentin Albillo.
