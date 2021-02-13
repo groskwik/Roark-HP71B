@@ -87,7 +87,7 @@ The description below is derived from http://www.namirshammas.com/HP71B/EMU71.ht
 ```bas
 10 ENDLINE CHR$(13)&CHR$(10)
 20 PRINTER IS :DOSLINK
-20 INPUT "FILENAME? ";F$
+30 INPUT "FILENAME? ";F$
 40 PLIST F$
 50 PRINTER IS * (or PRINTER IS :DISPLAY)
 ```
