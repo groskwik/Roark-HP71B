@@ -56,15 +56,15 @@ The description below is derived from http://www.namirshammas.com/HP71B/EMU71.ht
 1. Copy the code, renaming it to emu_in.dat, to Emu71's home directory.
 2. Enter this program in Emu71 (or copy it from the repositery, see readdat file)
 ```bas
-
 10 DIM A$[100]
-15 INPUT "FILENAME? ";F$
-20 CREATE TEXT F$
-30 ASSIGN #1 TO F$
-40 ENTER :DOSLINK;A$
-50 DISP A$ ! just to follow the process, you can omit it, if you keep it be careful with the delay setting
-60 PRINT #1;A$
-70 GOTO 40
+20 DELAY .1
+30 INPUT "FILENAME? ";F$
+40 CREATE TEXT F$
+50 ASSIGN #1 TO F$
+60 ENTER :DOSLINK ;A$
+70 DISP A$
+80 PRINT #1;A$
+90 GOTO 40
 ```
 3. Run the program in EMU71. The program prompts for a name. It will be the name of the ROARK program in EMU71.
 4. Close the file by executing from the keyboard:
