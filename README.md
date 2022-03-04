@@ -83,7 +83,7 @@ The description below is derived from http://www.namirshammas.com/HP71B/EMU71.ht
 ```bas
          COPY "ROARK:HDRIVE1"
 ```
-8. You can also copy the file from EMU71 to a regular windows text file with the following program:
+8. You can also copy the file from EMU71 to a regular windows text file with the following program (see writedat file):
 ```bas
 10 ENDLINE CHR$(13)&CHR$(10)
 20 PRINTER IS :DOSLINK
@@ -91,6 +91,11 @@ The description below is derived from http://www.namirshammas.com/HP71B/EMU71.ht
 40 PLIST F$
 50 PRINTER IS * (or PRINTER IS :DISPLAY)
 ```
+9. Close the file by executing from the keyboard:
+```bas
+CLEAR :DOSLINK 
+```
+
 You'll find a PC text file named "emu_out.dat" in Emu71's home directory.
          
 
